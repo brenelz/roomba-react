@@ -1,12 +1,12 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
 import React from 'react';
-import { useEffect, useRef, useState } from 'react';
+import Roomba from './components/Roomba';
 
 function App() {
 
     return (
-        <div />
+        <div style={{ display: 'flex', 'justifyContent': 'center', alignItems: 'center' }}>
+            <Roomba />
+        </div>
     )
 }
 
